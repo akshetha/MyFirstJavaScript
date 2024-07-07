@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="student2.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Business Web Site</title>
+    <!-- <link rel="stylesheet" href="styles.css"> -->
+    <style>
+            body {
+                margin: 0;
+                font-family: Arial, sans-serif;
+            }
+
+            .content {
+                text-align: center;
+                padding: 20px;
+            }
+    </style>
+</head>
+        
+<body>
+    <div id="head259"></div> 
+    <hr>
+    <div class="content" id="menu453">Menu</div>
+    <hr>
+    <div class="content" id="main957">Main Web Page</div>
+    <div id="scoreDisplay">Score: </div>
+    <hr>  
+    <div id="content"><p></p></div>
+
+
+    <table width=1650 height=80 bgcolor='LightGoldenrodYellow'>
+    <tr><td>
+    <a href='https://www.barnesandnoble.com'><h1 align='center'>Barnes and Noble: Get a membership today to get FREE SHIPPING on books</h1></a>
+    </td></tr>
+    </table>
+    <table width=1650 height=80 bgcolor='Khaki'>
+    <tr><td>
+    <a href='https://www.barnesandnoble.com'><h1 align='center'>Sign Up today to get a chance at FREE book giveaways at Goodreads</h1></a>
+    </td></tr>
+    </table>
+    <table width=1650 height=80 bgcolor='DarkKhaki'>
+    <tr><td>
+    <a href='https://www.barnesandnoble.com'><h1 align='center'>Kindle</h1></a>
+    </td></tr>
+    </table>
+
+    <div id="foot706"></div> 
+
+    <script>
+        document.getElementById('head259').innerHTML = getHeader();
+        document.getElementById('foot706').innerHTML = getFooter(companyname2, address5, phonenumber2);
+        document.getElementById('menu453').innerHTML = makeMenu9(3);
+        document.getElementById('main957').innerHTML = makeMain9();
+    </script> 
+    
+    <script>
+        product4 = null; getProduct273(jsonobj4);
+        product5 = null; getProduct273(jsonobj5);
+    </script>
+    
+</body>
+</html>
